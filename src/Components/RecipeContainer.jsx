@@ -1,4 +1,4 @@
-import React, {useEffect, useState} from 'react';
+import React from 'react';
 
 
 const RecipeContainer = (props)=> {
@@ -51,11 +51,7 @@ const RecipeContainer = (props)=> {
                                 return <li>{el}</li>
                             })}
                         </div>
-                        <div className="col-md-4 ">
-                            {hit.recipe.healthLabels.slice(0, 4).map((el)=>{
-                                return <li>{el}</li>
-                            })}
-                        </div>
+                       
                         </div>
                     </div>
                 </div>)
